@@ -1,2 +1,0 @@
-# Docker-Progetto-ClassManager
- 
