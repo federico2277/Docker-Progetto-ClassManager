@@ -21,7 +21,10 @@ switch ($second){
                     break;   
                 case 'PUT' : 
                     require __DIR__.'/api/class/update.php';
-                    break;             
+                    break;  
+                case "GETONE":
+                    require __DIR__ . "/api/class/readOne.php";
+                    break;           
                 }            
         break;
     
@@ -39,6 +42,9 @@ switch ($second){
             case 'PUT' : 
                 require __DIR__.'/api/class/update.php';
                 break;              
+            case "GETONE":
+                require __DIR__ . "/api/class/readOne.php";
+                break;
             }
         break;
 
