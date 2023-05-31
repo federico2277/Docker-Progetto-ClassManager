@@ -1,0 +1,18 @@
+DOCUMENTAZIONE
+
+POST :
+Class= localhost:8080/API/class
+Student= localhost:8080/API/Student
+
+Delete:
+Class = curl -X DELETE localhost:8080/API/class/1
+Student = curl -X DELETE localhost:8080/API/student/1
+
+Create:
+Class = curl -X GET localhost:8080/API/class -d '{………..}'
+Student = curl -X GET localhost:8080/API/student -d ‘{………..}’
+
+UPDATE:
+
+Class = curl -X PUT localhost:8080/API/class -d’{….}'
+Student = curl -X PATCH localhost:8080/student -d’{….}’
